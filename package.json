@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FlorianKempenich/CypressDemo/issues"
   },
-  "homepage": "https://github.com/FlorianKempenich/CypressDemo#readme"
+  "homepage": "https://github.com/FlorianKempenich/CypressDemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
