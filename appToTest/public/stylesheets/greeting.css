@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+#magic {
+  width: 300px;
+  height: 300px;
+  background-color: yellowgreen;
+}
+
+.hide {
+  display: none;
+}
