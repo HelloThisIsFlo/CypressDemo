@@ -24,4 +24,18 @@ describe('My First Test', () => {
     // Magic happens
     cy.get('#magic').should('be.visible')
   })
+
+  it('yo', () => {
+    cy.visit('https://compass.codurance.com')
+    cy.iframe().contains('Start').click();
+
+    cy.iframe().contains('Strongly Agree').click();
+    // cy.wait(3500)
+    // cy.iframe().type('a')
+    // cy.wait(3500)
+    // cy.iframe().type('a')
+    // cy.wait(3500)
+    // cy.wait(3500)
+    // cy.iframe().contains('Strongly Agree').click();
+  })
 })
